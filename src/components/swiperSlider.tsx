@@ -81,7 +81,7 @@ const ImageCarousel = () => {
         >
           {
           data.map((item, index) => (
-            <SwiperSlide key={index} className="bg-white pb-6 rounded-t-lg hover:rounded-b-lg transition-all !h-auto">
+            <SwiperSlide key={index} className="bg-white pb-6 rounded-lg hover:rounded-b-lg transition-all min-h-[400px]">
              <a href="">
               <div className="flex flex-col items-center px-4">
                 <h3 className="text-[1.1rem] font-semibold text-primary-600 py-3">{item.text}</h3>
